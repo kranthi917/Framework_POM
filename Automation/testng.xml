@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<listeners>
+		<listener class-name="com.oracle.tr.customeListener.Listner"></listener>
+	</listeners>
+	<test name="Regression Suite" preserve-order="true">
+		<classes>
+		<!-- 	<class name="com.oracle.tr.test.module1.LoginToautomationPractice" /> -->
+		</classes>
+	</test>
+	<test name="TirerackVerifyNavigationMenu">
+		<classes>
+			<class name="com.oracle.tr.test.HomePageTest.TirerackVerifyNavigationMenu" />
+		</classes>
+	</test>
+	<test name="TirerackVerifygetYourTiresRightTextMessage">
+		<classes>
+			<class
+				name="com.oracle.tr.test.HomePageTest.TirerackVerifygetYourTiresRightTextMessage" />
+		</classes>
+	</test>
+	<test name="TirerackVerifyFaceBookLink">
+		<classes>
+			<class name="com.oracle.tr.test.HomePageTest.TirerackVerifyFaceBookLink" />
+		</classes>
+	</test>
+	<test name="TirerackVerifyTotalLinksOfHomePage">
+		<classes>
+			<class name="com.oracle.tr.test.HomePageTest.TirerackVerifyTotalLinksOfHomePage" />
+		</classes>
+	</test>
+	<test name="TirerackVerifyWhyTireRackLinks">
+		<classes>
+			<class name="com.oracle.tr.test.HomePageTest.TirerackVerifyWhyTireRackLinks" />
+		</classes>
+	</test>
+	
+	<test name="TirerackAddToBasketTest2">
+		<classes>
+			<class name="com.oracle.tr.test.basketPage.TirerackAddToBasketTest2" />
+		</classes>
+	</test>
+</suite>

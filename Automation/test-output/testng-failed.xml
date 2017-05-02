@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="test.java.com.oracle.tr.test.module1.LoginToautomationPractice">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLoginToautomationpractice"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- test.java.com.oracle.tr.test.module1.LoginToautomationPractice -->
+      <class name="test.java.com.oracle.tr.test.module1.TC001_VerifyAddToBasket">
+        <methods>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.java.com.oracle.tr.test.module1.TC001_VerifyAddToBasket -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

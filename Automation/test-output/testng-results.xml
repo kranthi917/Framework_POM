@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="172" started-at="2017-05-02T20:49:35Z" finished-at="2017-05-02T20:49:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="172" started-at="2017-05-02T20:49:35Z" finished-at="2017-05-02T20:49:36Z">
+      <class name="test.java.com.oracle.tr.test.module1.TC001_VerifyAddToBasket">
+        <test-method status="PASS" signature="verifyAddToBasket()[pri:0, instance:test.java.com.oracle.tr.test.module1.TC001_VerifyAddToBasket@68c4039c]" name="verifyAddToBasket" duration-ms="16" started-at="2017-05-03T02:19:36Z" finished-at="2017-05-03T02:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToBasket -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.com.oracle.tr.test.module1.TC001_VerifyAddToBasket@68c4039c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-05-03T02:19:36Z" finished-at="2017-05-03T02:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:test.java.com.oracle.tr.test.module1.TC001_VerifyAddToBasket@68c4039c]" name="endTest" is-config="true" duration-ms="0" started-at="2017-05-03T02:19:36Z" finished-at="2017-05-03T02:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- test.java.com.oracle.tr.test.module1.TC001_VerifyAddToBasket -->
+      <class name="test.java.com.oracle.tr.test.module1.LoginToautomationPractice">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.java.com.oracle.tr.test.module1.LoginToautomationPractice@26be92ad]" name="setUp" is-config="true" duration-ms="125" started-at="2017-05-03T02:19:35Z" finished-at="2017-05-03T02:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testLoginToautomationpractice()[pri:0, instance:test.java.com.oracle.tr.test.module1.LoginToautomationPractice@26be92ad]" name="testLoginToautomationpractice" duration-ms="16" started-at="2017-05-03T02:19:36Z" finished-at="2017-05-03T02:19:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at test.java.com.oracle.tr.test.module1.LoginToautomationPractice.testLoginToautomationpractice(LoginToautomationPractice.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginToautomationpractice -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:test.java.com.oracle.tr.test.module1.LoginToautomationPractice@26be92ad]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-05-03T02:19:36Z" finished-at="2017-05-03T02:19:36Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at test.java.com.oracle.tr.test.module1.LoginToautomationPractice.closeBrowser(LoginToautomationPractice.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.java.com.oracle.tr.test.module1.LoginToautomationPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
